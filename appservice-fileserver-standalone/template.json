@@ -41,13 +41,13 @@
       "type": "string",
       "defaultValue": "apprpadmin",
       "metadata": {
-        "description": "File server Admin user"
+        "description": "File server local admin user"
       }
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "File server Admin password"
+        "description": "File server local admin password"
       }
     },
     "fileShareOwner": {
@@ -67,7 +67,7 @@
       "type": "string",
       "defaultValue": "fileshareuser",
       "metadata": {
-        "description": "Fileshare user"
+        "description": "Fileshare user username"
       }
     },
     "fileShareUserPassword": {
